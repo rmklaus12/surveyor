@@ -6,4 +6,8 @@ RSpec.describe Surveyor::Answer do
   it "returns an answer's question" do
     expect(subject.question).to eq("Do you like cats?")
   end
+
+  it "will not add answer without a question" do
+
+  end
 end
